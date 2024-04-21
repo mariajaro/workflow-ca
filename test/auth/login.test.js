@@ -1,9 +1,9 @@
 // login.test.js
-import { login } from '../../src/js/api/auth/login.js';
-import * as storage from '../../src/js/storage/index.js';
+import { login } from "../../src/js/api/auth/login.js";
+import * as storage from "../../src/js/storage/index.js";
 
 // Mock the storage module
-jest.mock('../../src/js/storage/index.js', () => ({
+jest.mock("../../src/js/storage/index.js", () => ({
   save: jest.fn(),
   load: jest.fn(), 
   remove: jest.fn(),
