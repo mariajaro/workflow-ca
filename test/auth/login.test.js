@@ -5,6 +5,8 @@ import * as storage from '../../src/js/storage/index.js';
 // Mock the storage module
 jest.mock('../../src/js/storage/index.js', () => ({
   save: jest.fn(),
+  load: jest.fn(), 
+  remove: jest.fn(),
 }));
 // Mock fetch
 global.fetch = jest.fn();
