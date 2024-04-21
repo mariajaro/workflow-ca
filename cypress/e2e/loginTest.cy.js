@@ -1,7 +1,7 @@
 describe('Login/logout functionality and authentication', () => {
     // Checks if a user can successfully log in
     it('Login functionality', () => {
-      cy.visit('../../index.html');
+      cy.visit('/l');
       cy.wait(3000);
   
       // Open the login modal
